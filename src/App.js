@@ -12,7 +12,7 @@ class App extends Component {
 			<div className='App'>
 				<header>
 					<h1>Clayton Canady</h1>
-					<h2>Full Stack Dev</h2>
+					<h2>Full Stack Developer</h2>
 					<Nav variant='tabs'>
 						<Link to='/'>
 							<Button variant='dark'>Home</Button>

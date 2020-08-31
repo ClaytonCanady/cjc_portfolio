@@ -1,0 +1,11 @@
+.container {
+	display: inline-flex;
+    height: 100vh;
+    justify-content: center;
+}
+img {
+	height: 200px;
+}
+/* .project {
+ display: flex;
+} */

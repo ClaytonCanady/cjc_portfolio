@@ -6,6 +6,7 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
+import Resume from './Resume';
 class App extends Component {
 	render() {
 		return (
@@ -23,6 +24,9 @@ class App extends Component {
 						<Link to='/portfolio'>
 							<Button variant='dark'>Portfolio</Button>
 						</Link>
+						<Link to='/resume'>
+							<Button variant='dark'>Resume</Button>
+						</Link>
 						<Link to='/contact-me'>
 							<Button variant='dark'>Contact</Button>
 						</Link>
@@ -34,7 +38,13 @@ class App extends Component {
 					<Route path='/about-me' component={AboutMe} />
 					<Route path='/portfolio' component={Portfolio} />
 					<Route path='/contact-me' component={ContactMe} />
+					<Route path='/resume' component={Resume} />
+				
 				</main>
+				<footer>
+					<a href='https://www.linkedin.com/in/clayton-canady-dev/' target='blank' >LinkedIn</a>
+					<a href='https://github.com/ClaytonCanady' target='blank'>Github</a>
+				</footer>
 			</div>
 		);
 	}

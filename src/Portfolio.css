@@ -1,11 +1,19 @@
 .container {
-	display: inline-flex;
-    height: 100vh;
-    justify-content: center;
+	display: flex;
+	flex-basis: auto;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 img {
 	height: 200px;
 }
-/* .project {
- display: flex;
-} */
+.project {
+    padding: 10px;
+    align-content: center;
+}
+h3 {
+    padding: 20px;
+}
+.desc {
+    max-width: 400px;
+}

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route, Link } from 'react-router-dom';
 import { Button, Nav } from 'react-bootstrap';
-import Home from './Home';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
@@ -21,9 +20,7 @@ class App extends Component {
 						<Link to='/about-me'>
 							<Button variant='dark'>About Me</Button>
 						</Link>
-						<Link to='/portfolio'>
-							<Button variant='dark'>Portfolio</Button>
-						</Link>
+					
 						<Link to='/resume'>
 							<Button variant='dark'>Resume</Button>
 						</Link>
@@ -34,17 +31,12 @@ class App extends Component {
 				</header>
 
 				<main>
-					<Route path='/' exact component={Home} />
+					<Route path='/' exact component={Portfolio} />
 					<Route path='/about-me' component={AboutMe} />
-					<Route path='/portfolio' component={Portfolio} />
+				
 					<Route path='/contact-me' component={ContactMe} />
 					<Route path='/resume' component={Resume} />
-				
 				</main>
-				<footer>
-					<a href='https://www.linkedin.com/in/clayton-canady-dev/' target='blank' >LinkedIn</a>
-					<a href='https://github.com/ClaytonCanady' target='blank'>Github</a>
-				</footer>
 			</div>
 		);
 	}

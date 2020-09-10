@@ -5,7 +5,7 @@ import { Button, Nav } from 'react-bootstrap';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
-import Resume from './Resume';
+
 class App extends Component {
 	render() {
 		return (
@@ -21,9 +21,7 @@ class App extends Component {
 							<Button variant='dark'>About Me</Button>
 						</Link>
 					
-						<Link to='/resume'>
-							<Button variant='dark'>Resume</Button>
-						</Link>
+					
 						<Link to='/contact-me'>
 							<Button variant='dark'>Contact</Button>
 						</Link>
@@ -35,7 +33,7 @@ class App extends Component {
 					<Route path='/about-me' component={AboutMe} />
 				
 					<Route path='/contact-me' component={ContactMe} />
-					<Route path='/resume' component={Resume} />
+					
 				</main>
 			</div>
 		);

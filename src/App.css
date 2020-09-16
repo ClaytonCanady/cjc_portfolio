@@ -125,11 +125,11 @@ h3 {
 	.home h3 {
 		padding: none;
 	}
-	.sidebar img {
+	/* .sidebar img {
 		display: none;
-	}
+	} */
 	.sidebar p {
-		padding-right: 4px;
+		padding-right: 10px;
 		font-weight: bold;
 	}
 	.sidebar {

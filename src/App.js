@@ -4,7 +4,7 @@ import { Route, Link } from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
-import Home from './Home'
+import Home from './Home';
 class App extends Component {
 	render() {
 		return (

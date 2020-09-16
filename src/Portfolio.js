@@ -46,7 +46,8 @@ class Portfolio extends Component {
 						<p className='desc'>
 							A full stack product that I collaborated with three other
 							engineers on. It is an application for companies to manage their
-							fleet of vehicles.
+							fleet of vehicles. Test credentials for the site are Email:
+							testcreds@gmail.com Password: password123
 						</p>
 					</div>
 					<div className='project'>

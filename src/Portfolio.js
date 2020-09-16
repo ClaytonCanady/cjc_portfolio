@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Portfolio.css';
 class Portfolio extends Component {
 	render() {
 		return (
@@ -58,7 +57,9 @@ class Portfolio extends Component {
 							/>
 						</a>
 						<p className='desc'>
-							Meat Master is a fullstack project I undertook alone. It is for the posting and viewing of bbq recipes. Test credentials for the site are Username: testcreds Password: password123
+							Meat Master is a fullstack project I undertook alone. It is for
+							the posting and viewing of bbq recipes. Test credentials for the
+							site are Username: testcreds Password: password123
 						</p>
 					</div>
 				</div>

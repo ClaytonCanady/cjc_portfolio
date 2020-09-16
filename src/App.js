@@ -1,39 +1,39 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, Link } from 'react-router-dom';
-import { Button, Nav } from 'react-bootstrap';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
-
+import Home from './Home'
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<header>
-					<h1>Clayton Canady</h1>
-					<h2>Full Stack Developer</h2>
-					<Nav variant='tabs'>
+				<div className='sidebar'>
+					<img src={require('./images/me.png')} alt='game of thrones quiz' />
+					<h2>Clayton Canady</h2>
+					<nav>
 						<Link to='/'>
-							<Button variant='dark'>Home</Button>
+							<p>Home</p>
 						</Link>
 						<Link to='/about-me'>
-							<Button variant='dark'>About Me</Button>
+							<p>About Me</p>
 						</Link>
-					
-					
+						<Link to='/portfolio'>
+							<p>Portfolio</p>
+						</Link>
 						<Link to='/contact-me'>
-							<Button variant='dark'>Contact</Button>
+							<p>Contact</p>
 						</Link>
-					</Nav>
-				</header>
+					</nav>
+				</div>
 
 				<main>
-					<Route path='/' exact component={Portfolio} />
+					<Route path='/' exact component={Home} />
+					<Route path='/portfolio' component={Portfolio} />
 					<Route path='/about-me' component={AboutMe} />
-				
+
 					<Route path='/contact-me' component={ContactMe} />
-					
 				</main>
 			</div>
 		);

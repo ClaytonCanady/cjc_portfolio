@@ -3,21 +3,15 @@ import React, { Component } from 'react';
 class AboutMe extends Component {
 	render() {
 		return (
-			<div className='text'>
-				<img src={require('./images/me.jpg')} alt='game of thrones quiz' />
+			<div className='about-me'>
 				<br />
 				<br />
-				<h4>Hi there!</h4>
+				<h4>Thank You for Visiting my Page!</h4>
 				<p>
-					My name is Clayton Canady, I am a fullstack developer living in the
-					austin area. I'm originally from North Carolina but made the move for
-					job opportunities and to be closer to my brother. I am an army veteran
-					and also have a background in welding and fabrication.
-				</p>
-				<h4>What can I bring to the table?</h4>
-				<p>
-					I am proficient in Vanilla Javascript, CSS, REACT, Python, MongoDB,
-					Mongoose, and SQL.
+					My name is Clayton Canady, I am a fullstack developer moving to the
+					Austin area. I'm originally from North Carolina but am making the move
+					for job opportunities. I am an army veteran and also have a background
+					in welding and fabrication.
 				</p>
 
 				<h4>Not Just a Programmer.</h4>
@@ -27,6 +21,16 @@ class AboutMe extends Component {
 					closely with a team. Whether the situation requires me to lead or
 					follow I always deliver results.
 				</p>
+				<h4>What can I bring to the table?</h4>
+				<ul>
+					<li>Css</li>
+					<li>Vanilla JS</li>
+					<li>React</li>
+					<li>Django</li>
+					<li>Python</li>
+					<li>Mongo DB</li>
+					<li>Apis</li>
+				</ul>
 			</div>
 		);
 	}

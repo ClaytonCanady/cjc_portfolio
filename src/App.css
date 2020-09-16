@@ -1,47 +1,107 @@
 .App {
-	background-color: #000000;
-	background-color: #2eff4d;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000c24' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232eff4d' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2300f265' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2300e578' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2300d788' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2300c894' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2300b99d' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2300aaa3' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23009ba6' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23008ca4' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23007c9f' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23006d97' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23005e8c' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2300507e' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2300416d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2300345c' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23002749' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23001b36' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23060e24' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-	background-attachment: fixed;
+	background-color: #fbf7f7;
+	border: 20px solid #0976c4;
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
-	color: white;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
-header {
-	margin: 0;
-	padding: 1px;
-	text-align: center;
-	color: rgb(255, 255, 255);
-	height: fit-content;
-	text-decoration: none;
-	justify-content: center;
+.sidebar {
+	float: left;
+	width: 15rem;
+	min-height: 100vh;
+	max-height: inherit;
+	background-color: #d6dfef;
 }
 
-.text {
-	padding-top: 20px;
-	justify-content: center;
-	text-align: center;
+.sidebar img {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height: 100px;
 }
-.text p {
+
+.sidebar h2 {
+	padding-bottom: 15px;
+}
+nav {
+	background-color: #e7e6ff;
+	padding-bottom: 5px;
+}
+nav p {
+	color: black;
+}
+.home h1 {
+	text-align: left;
+	margin-left: 20vw;
+	margin-top: 50px;
+}
+.home h2 {
+	text-align: left;
+	margin-left: 25vw;
+	margin-top: 30px;
+}
+.home h3 {
+	text-align: left;
+	margin-left: 30vw;
+	margin-top: 10px;
+}
+
+.home a {
+	text-decoration: underline;
+	color: black;
+}
+
+.desc {
+	padding-top: 10px;
+	max-width: 400px;
+}
+.about-me p {
 	padding-right: 10vw;
 	padding-left: 10vw;
 }
-.text h4 {
-	padding-bottom: 10px;
+.contact h4 {
+	padding-top: 35px;
+}
+.contact h5 {
+	padding-top: 40px;
+}
+.contact h3 {
+	padding-top: 45px;
 	text-decoration: underline;
 }
-
-p a {
-	color: white;
-}
-
 h4 a {
 	text-decoration: none;
-	color: white;
 }
-.text img {
-	height: 300px;
+
+.about-me {
+	padding-left: 200px;
+}
+.about-me p {
+	padding-bottom: 15px;
+}
+.about-me h4 {
+	padding-bottom: 10px;
+}
+ul {
+	list-style: none;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100;
+
+}
+h3 {
+padding: 20px;
+}
+
+.project img {
+	height: 200px;
+}
+.project {
+    padding: 10px;
+	align-content: center;
 }

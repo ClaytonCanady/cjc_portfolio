@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class ContactMe extends Component {
 	render() {
 		return (
-			<div className='text'>
-				{/* <h4>Lets Connect!</h4> */}
+			<div className='contact'>
+				<h3>More Information</h3>
 				<h4>
 					<a
 						href='https://docs.google.com/document/d/1OERp842sQrLHw60KSchkT2vjUxUtqUcDKTZ43UmG0-Y/edit?usp=sharing'
@@ -24,7 +24,7 @@ class ContactMe extends Component {
 						Github
 					</a>
 				</h4>
-
+			<h3>Contact-Me</h3>
 				<h5>Email: cjcanady1113@gmail.com</h5>
 				<h5>Phone: 1-910-305-6588</h5>
 			</div>

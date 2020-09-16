@@ -34,7 +34,6 @@ header {
 	text-decoration: underline;
 }
 
-
 p a {
 	color: white;
 }
@@ -42,4 +41,7 @@ p a {
 h4 a {
 	text-decoration: none;
 	color: white;
+}
+.text img {
+	height: 300px;
 }

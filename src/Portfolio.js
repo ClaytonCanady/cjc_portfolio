@@ -16,8 +16,8 @@ class Portfolio extends Component {
 							/>
 						</a>
 						<p className='desc'>
-							A quiz game based on the hit show Game of Thrones. Features
-							include high score tracking.
+							This was my very first project, a quiz game based on the hit show
+							Game of Thrones. Features include high score tracking.
 						</p>
 					</div>
 					<div className='project'>
@@ -48,6 +48,17 @@ class Portfolio extends Component {
 							A full stack product that I collaborated with three other
 							engineers on. It is an application for companies to manage their
 							fleet of vehicles.
+						</p>
+					</div>
+					<div className='project'>
+						<a href='https://meat-master-front.herokuapp.com//' target='blank'>
+							<img
+								src={require('./images/meat-master.png')}
+								alt='application for bbq recipes'
+							/>
+						</a>
+						<p className='desc'>
+							Meat Master is a fullstack project I undertook alone. It is for the posting and viewing of bbq recipes. Test credentials for the site are Username: testcreds Password: password123
 						</p>
 					</div>
 				</div>

@@ -7,7 +7,13 @@
 	text-align: center;
 	/* padding-bottom: 20px; */
 }
-
+.single-project p {
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+.single-project {
+	padding-left: 200px;
+}
 .sidebar {
 	float: left;
 	width: 15rem;

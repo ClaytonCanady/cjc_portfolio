@@ -5,6 +5,10 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
 import Home from './Home';
+import GameOfThrones from './GameOfThrones'
+import DungeonsAndDragons from './DungeonsAndDragons';
+import Fleet from './Fleet';
+import MeatMaster from './MeatMaster';
 class App extends Component {
 	render() {
 		return (
@@ -31,8 +35,11 @@ class App extends Component {
 				<main>
 					<Route path='/' exact component={Home} />
 					<Route path='/portfolio' component={Portfolio} />
+					<Route path='/GameOfThrones' component={GameOfThrones} />
+					<Route path='/DungeonsAndDragons' component={DungeonsAndDragons} />
+					<Route path='/Fleet' component={Fleet} />
+					<Route path='/MeatMaster' component={MeatMaster} />
 					<Route path='/about-me' component={AboutMe} />
-
 					<Route path='/contact-me' component={ContactMe} />
 				</main>
 			</div>

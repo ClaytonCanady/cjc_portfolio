@@ -12,30 +12,30 @@ class MeatMaster extends Component {
 					the component that I am most proud of is the high score keeping
 					capability. Questions are stored in an array of objects along with the
 					answer choices, correct answer, and the correction that will be
-					displayed at the end for all missed. I had to write funtions for
+					displayed at the end for all missed. I had to write functions for
 					handling the users answer, displaying results, resetting the quiz, and
 					starting.
 				</p>
+				<h4>Time Frame</h4>
+				<p>This project was a solo build over the course of two weeks.</p>
 				<ul>
 					<h4>Features</h4>
-					<li>1: High-score tracking via local storage.</li>
-					<li>
-						2: Display correct answers to any missed questions at the end.
-					</li>
-					<li>
-						3: Restart button at the end of quiz that starts over form the first
-						question.
-					</li>
-					<li>
-						4: Displays a quote from the series based on percentage of correct
-						answers.
-					</li>
+					<li>1: Login/out and create new user.</li>
+					<li>2: View all recipes that have been added</li>
+					<li>3: Add, edit, or delete recipes attached to your account.</li>
+					<li>4: Responsive nav bar.</li>
+					<li>5: All recipes show the posters username.</li>
 				</ul>
 				<ul>
 					<h4>Tech-Stack</h4>
-					<li>1: Html</li>
-					<li>2: Css</li>
-					<li>3: Vanilla Javascript</li>
+					<li>React</li>
+					<li>Css</li>
+					<li>React Bootstrap</li>
+					<li>React router and React Router DOM</li>
+					<li>React Hooks</li>
+					<li>Axios</li>
+					<li>Django</li>
+					<li>Python</li>
 				</ul>
 			</div>
 		);

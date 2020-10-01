@@ -16,12 +16,24 @@ class GameOfThrones extends Component {
 					handling the users answer, displaying results, resetting the quiz, and
 					starting.
 				</p>
+				<a
+					href='https://claytoncanady.github.io/Game-of-Thrones-Quiz/'
+					target='blank'>
+					Deployed Site
+				</a>
+				<br />
+				<a
+					href='https://github.com/ClaytonCanady/Game-of-Thrones-Quiz'
+					target='blank'>
+					Github Repo
+				</a>
 				<h4>Time Frame</h4>
 				<p>This project was a solo build over the course of a week.</p>
 				<ul>
 					<h4>Features</h4>
 					<li>1: High-score tracking via local storage.</li>
-					<li>2: Display correct answers to any missed questions at the end.
+					<li>
+						2: Display correct answers to any missed questions at the end.
 					</li>
 					<li>
 						3: Restart button at the end of quiz that starts over form the first

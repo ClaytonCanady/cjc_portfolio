@@ -16,6 +16,17 @@ class DungeonsAndDragons extends Component {
 					external API and rendered in the browser as list items until they are
 					clicked to show more information.
 				</p>
+				<a
+					href='https://dungeons-and-dragons-info.herokuapp.com/'
+					target='blank'>
+					Deployed Site
+				</a>
+				<br />
+				<a
+					href='https://github.com/ClaytonCanady/dungeons-and-dragons-app'
+					target='blank'>
+					Github Repo
+				</a>
 				<h4>Time Frame</h4>
 				<p>This project was a solo build over the course of two weeks.</p>
 				<ul>

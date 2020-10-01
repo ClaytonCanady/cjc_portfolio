@@ -7,15 +7,26 @@ class MeatMaster extends Component {
 				<h3>Meat Master</h3>
 				<h4>Description</h4>
 				<p>
-					This project was my very first undertaking. It is a quiz game based on
-					the hit series and show Game of Thrones. The most challenging and also
-					the component that I am most proud of is the high score keeping
-					capability. Questions are stored in an array of objects along with the
-					answer choices, correct answer, and the correction that will be
-					displayed at the end for all missed. I had to write functions for
-					handling the users answer, displaying results, resetting the quiz, and
-					starting.
+					Meat Master is an application for the storage and viewing of barbecue
+					recipes. This product includes user authorization which is the feature
+					I am most proud of given the short time frame for the project. Test
+					credentials for the site are Username: testcreds Password: password123
 				</p>
+				<a href='https://meat-master-front.herokuapp.com/' target='blank'>
+					Deployed Site
+				</a>
+				<br />
+				<a
+					href='https://github.com/ClaytonCanady/meat-master-frontend'
+					target='blank'>
+					Github Repo Front-End
+				</a>
+				<br />
+				<a
+					href='https://github.com/ClaytonCanady/meat-master-backend'
+					target='blank'>
+					Github Repo Back-End
+				</a>
 				<h4>Time Frame</h4>
 				<p>This project was a solo build over the course of two weeks.</p>
 				<ul>

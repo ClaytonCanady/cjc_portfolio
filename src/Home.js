@@ -6,7 +6,7 @@ class Home extends Component {
 			<div className='home'>
 				<h4>Who am I?</h4>
 				<p>
-					My name is Clayton Canady, I am a fullstack developer In North Carolina. I am looking for an opportunity to relocate, hopefully to Austin, Texas. I am an army veteran and also have a background
+					My name is Clayton Canady, I am a fullstack developer currently living in North Carolina. I am looking for an opportunity to relocate, hopefully to Austin, Texas. I am an army veteran and also have a background
 					in welding and fabrication. My interests include spending time outdoors whether that be hiking, hunting, grilling, or fishing. I also enjoy playing games with friends and family, both online and in tabletop format.
 				</p>
 				

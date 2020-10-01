@@ -31,6 +31,18 @@ class AboutMe extends Component {
 					<li>Mongo DB</li>
 					<li>Apis</li>
 				</ul>
+				<h4>
+					<a
+						href='https://www.linkedin.com/in/clayton-canady-dev/'
+						target='blank'>
+						LinkedIn
+					</a>
+				</h4>
+				<h4>
+					<a href='https://github.com/ClaytonCanady' target='blank'>
+						Github
+					</a>
+				</h4>
 			</div>
 		);
 	}

@@ -7,21 +7,18 @@
 	text-align: center;
 	/* padding-bottom: 20px; */
 }
+.resume {
+	height: 80vh;
+}
+.home p {
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
 .single-project p {
 	padding-right: 10vw;
 	padding-left: 10vw;
 }
 
-/* .sidebar {
-	float: left;
-	width: 15rem;
-	min-height: 100vh;
-	max-height: inherit;
-	background-color: #d6dfef;
-}
-.sidebar h2 {
-	padding-bottom: 15px;
-} */
 .sidebar p {
 	display: inline;
 	padding: 10px;

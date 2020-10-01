@@ -8,10 +8,9 @@ class AboutMe extends Component {
 				<br />
 				<h4>Thank You for Visiting my Page!</h4>
 				<p>
-					My name is Clayton Canady, I am a fullstack developer moving to the
-					Austin area. I'm originally from North Carolina but am making the move
-					for job opportunities. I am an army veteran and also have a background
-					in welding and fabrication.
+					With my unusual background for the industry and ever growing skillset
+					I would be a valuable asset to your team. I am a swift learner and
+					exceed at both leading and working with teams to deliver results.
 				</p>
 
 				<h4>Not Just a Programmer.</h4>
@@ -31,6 +30,18 @@ class AboutMe extends Component {
 					<li>Mongo DB</li>
 					<li>Apis</li>
 				</ul>
+				<h4>
+					<a
+						href='https://www.linkedin.com/in/clayton-canady-dev/'
+						target='blank'>
+						LinkedIn
+					</a>
+				</h4>
+				<h4>
+					<a href='https://github.com/ClaytonCanady' target='blank'>
+						Github
+					</a>
+				</h4>
 			</div>
 		);
 	}

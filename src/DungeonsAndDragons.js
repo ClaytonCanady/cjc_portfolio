@@ -10,8 +10,7 @@ class DungeonsAndDragons extends Component {
 					Dungeons and Dragons has always been a subject of interest to me. I
 					wanted to create an application for the finding and viewing of spells
 					and other properties in the game. The most challenging and also the
-					component that I am most proud of is the filterable search inside each
-					tab, this makes it much easier to find a specific spell versus reading
+					component that I am most proud of is the filterable search, this makes it much easier to find a specific spell versus reading
 					through the alphabetized list. All items displayed are pulled from an
 					external API and rendered in the browser as list items until they are
 					clicked to show more information.
@@ -19,7 +18,7 @@ class DungeonsAndDragons extends Component {
 				<a
 					href='https://dungeons-and-dragons-info.herokuapp.com/'
 					target='blank'>
-					Deployed Site
+					Deployed Application
 				</a>
 				<br />
 				<a
@@ -27,6 +26,8 @@ class DungeonsAndDragons extends Component {
 					target='blank'>
 					Github Repo
 				</a>
+				<br />
+				<br />
 				<h4>Time Frame</h4>
 				<p>This project was a solo build over the course of two weeks.</p>
 				<ul>
@@ -42,7 +43,7 @@ class DungeonsAndDragons extends Component {
 					<li>React</li>
 					<li>Css</li>
 					<li>React Bootstrap</li>
-					<li>React router and React Router DOM</li>
+					<li>React router</li>
 				</ul>
 			</div>
 		);

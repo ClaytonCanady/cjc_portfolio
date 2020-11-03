@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Fleet extends Component {
 	render() {
 		return (
@@ -14,7 +15,7 @@ class Fleet extends Component {
 					password123
 				</p>
 				<a href='https://warm-brook-93750-dev.herokuapp.com/' target='blank'>
-					Deployed Site
+					Deployed Application
 				</a>
 				<br />
 				<a
@@ -28,6 +29,8 @@ class Fleet extends Component {
 					target='blank'>
 					Github Repo Back-End
 				</a>
+				<br />
+				<br />
 				<h4>Time Frame</h4>
 				<p>This project was a collaboration over the course of two weeks.</p>
 				<ul>
@@ -42,7 +45,7 @@ class Fleet extends Component {
 					<li>React</li>
 					<li>Css</li>
 					<li>React Bootstrap</li>
-					<li>React router and React Router DOM</li>
+					<li>React router</li>
 					<li>React Hooks</li>
 					<li>Axios</li>
 					<li>Mongo DB</li>

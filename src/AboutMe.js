@@ -6,11 +6,21 @@ class AboutMe extends Component {
 			<div className='about-me'>
 				<br />
 				<br />
-				<h4>Thank You for Visiting my Page!</h4>
+				<h4>Who am I?</h4>
 				<p>
-					With my unusual background for the industry and ever growing skillset
-					I would be a valuable asset to your team. I am a swift learner and
-					exceed at both leading and working with teams to deliver results.
+					My name is Clayton Canady, I am a fullstack developer currently living
+					in North Carolina. I am an army veteran and also have a background in
+					welding and fabrication. My interests include spending time outdoors
+					whether that be hiking, hunting, grilling, or fishing. I also enjoy
+					playing games with friends and family, both online and in tabletop
+					format.
+				</p>
+				<h4>My Passions</h4>
+				<p>
+					I love to learn, each new technology is an opportunity for me to grow
+					and advance my skills. I am passionate about accessibility, the extra
+					time and resources put into an application to make it usable by all is
+					an absolute must.
 				</p>
 
 				<h4>Not Just a Programmer.</h4>
@@ -22,26 +32,15 @@ class AboutMe extends Component {
 				</p>
 				<h4>What can I bring to the table?</h4>
 				<ul>
-					<li>Css</li>
-					<li>Vanilla JS</li>
 					<li>React</li>
 					<li>Django</li>
+					<li>Git</li>
 					<li>Python</li>
 					<li>Mongo DB</li>
 					<li>Apis</li>
+					<li>HTML/CSS</li>
+					<li>Javascript</li>
 				</ul>
-				<h4>
-					<a
-						href='https://www.linkedin.com/in/clayton-canady-dev/'
-						target='blank'>
-						LinkedIn
-					</a>
-				</h4>
-				<h4>
-					<a href='https://github.com/ClaytonCanady' target='blank'>
-						Github
-					</a>
-				</h4>
 			</div>
 		);
 	}

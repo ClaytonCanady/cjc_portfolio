@@ -14,7 +14,7 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<div className='sidebar'>
-					<img src={require('./images/me.png')} alt='game of thrones quiz' />
+					<img src={require('./images/me.png')} alt='Me' />
 					<h2>Clayton Canady</h2>
 					<nav>
 						<Link to='/'>

@@ -7,6 +7,11 @@
 	text-align: center;
 	/* padding-bottom: 20px; */
 }
+
+.single-project h3 {
+	font-weight: bold;
+	text-decoration: underline;
+}
 .resume {
 	height: 80vh;
 }
@@ -30,7 +35,7 @@
 }
 nav {
 	background-color: #e7e6ff;
-	padding-bottom: 5px;
+	padding: 10px 0;
 }
 nav p {
 	color: black;
@@ -44,14 +49,10 @@ nav p {
 	padding-right: 10vw;
 	padding-left: 10vw;
 }
-.contact h4 {
-	padding-top: 35px;
-}
-.contact h5 {
-	padding-top: 40px;
-}
+
+
 .contact h3 {
-	padding-top: 45px;
+	
 	text-decoration: underline;
 }
 h4 a {

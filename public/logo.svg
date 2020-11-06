@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <radialGradient cx="52.5605469%" cy="50%" fx="52.5605469%" fy="50%" r="42.4274191%" id="radialGradient-1">
+            <stop stop-color="#B5B0F5" offset="0%"></stop>
+            <stop stop-color="#7E78E7" offset="100%"></stop>
+        </radialGradient>
+        <path d="M23.0749668,-9.32256277e-16 L76.9250332,9.32256277e-16 C84.9487019,-5.41667744e-16 87.858278,0.8354305 90.7916113,2.40419433 C93.7249447,3.97295817 96.0270418,6.27505533 97.5958057,9.20838867 C99.1645695,12.141722 100,15.0512981 100,23.0749668 L100,76.9250332 C100,84.9487019 99.1645695,87.858278 97.5958057,90.7916113 C96.0270418,93.7249447 93.7249447,96.0270418 90.7916113,97.5958057 C87.858278,99.1645695 84.9487019,100 76.9250332,100 L23.0749668,100 C15.0512981,100 12.141722,99.1645695 9.20838867,97.5958057 C6.27505533,96.0270418 3.97295817,93.7249447 2.40419433,90.7916113 C0.8354305,87.858278 3.61111829e-16,84.9487019 -6.21504185e-16,76.9250332 L6.21504185e-16,23.0749668 C-3.61111829e-16,15.0512981 0.8354305,12.141722 2.40419433,9.20838867 C3.97295817,6.27505533 6.27505533,3.97295817 9.20838867,2.40419433 C12.141722,0.8354305 15.0512981,5.41667744e-16 23.0749668,-9.32256277e-16 Z" id="path-2"></path>
+        <radialGradient cx="50%" cy="55.1573427%" fx="50%" fy="55.1573427%" r="59.1134409%" gradientTransform="translate(0.500000,0.551573),rotate(-45.888278),scale(1.000000,0.798764),translate(-0.500000,-0.551573)" id="radialGradient-4">
+            <stop stop-color="#8666C4" offset="0%"></stop>
+            <stop stop-color="#55C9A8" offset="7.32742935%"></stop>
+            <stop stop-color="#C11927" offset="100%"></stop>
+        </radialGradient>
+        <text id="text-5" font-family="Apple-Chancery, Apple Chancery" font-size="72" font-weight="normal" fill="#EFEFEF">
+            <tspan x="5" y="74">CC</tspan>
+        </text>
+        <filter x="-8.3%" y="-4.9%" width="118.9%" height="113.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Rectangle" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            <polygon id="Triangle" fill="url(#radialGradient-4)" mask="url(#mask-3)" points="0 0 100 100 100 0"></polygon>
+            <g id="CC" mask="url(#mask-3)" stroke="#2F2525">
+                <use fill="#EFEFEF" fill-opacity="1" stroke-opacity="1" filter="url(#filter-6)" xlink:href="#text-5"></use>
+                <use fill="#EFEFEF" fill-opacity="1" stroke-opacity="1" xlink:href="#text-5"></use>
+                <use xlink:href="#text-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

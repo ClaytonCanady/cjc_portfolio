@@ -5,7 +5,7 @@ class ContactMe extends Component {
 		return (
 			<div className='contact'>
 				<br/>
-				<h3>Contact-Me</h3>
+				<br/>
 				<h5>Email: cjcanady1113@gmail.com</h5>
 				<br/>
 				<h5>Phone: 1-910-305-6588</h5>

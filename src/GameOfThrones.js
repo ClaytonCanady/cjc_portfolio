@@ -47,7 +47,7 @@ class GameOfThrones extends Component {
 					<h4>Tech-Stack</h4>
 					<li>Html</li>
 					<li>Css</li>
-					<li>Vanilla Javascript</li>
+					<li>Javascript</li>
 					<li>Github</li>
 				</ul>
 			</div>

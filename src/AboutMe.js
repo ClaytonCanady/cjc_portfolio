@@ -8,8 +8,7 @@ class AboutMe extends Component {
 				<br />
 				<h4>Who am I?</h4>
 				<p>
-					My name is Clayton Canady, I am a fullstack developer currently living
-					in North Carolina. I am an army veteran and also have a background in
+					My name is Clayton Canady, I am a fullstack developer based in Austin Texas. I am an army veteran and also have a background in
 					welding and fabrication. My interests include spending time outdoors
 					whether that be hiking, hunting, grilling, or fishing. I also enjoy
 					playing games with friends and family, both online and in tabletop
@@ -18,9 +17,7 @@ class AboutMe extends Component {
 				<h4>My Passions</h4>
 				<p>
 					I love to learn, each new technology is an opportunity for me to grow
-					and advance my skills. I am passionate about accessibility, the extra
-					time and resources put into an application to make it usable by all is
-					an absolute must.
+					and advance my skills. I am passionate about accessibility, it is our responsibility to make our digital world useable by as many people as possible.
 				</p>
 
 				<h4>Not Just a Programmer.</h4>

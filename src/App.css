@@ -1,6 +1,5 @@
 .App {
-	background-color: #fbf7f7;
-	border: 20px solid #0976c4;
+	border: 15px solid #36151e;
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
@@ -15,13 +14,22 @@
 .resume {
 	height: 80vh;
 }
-.home p {
-	padding-right: 10vw;
-	padding-left: 10vw;
+
+.single-project a {
+	color: rgb(73, 29, 231);
+	text-decoration: underline;
+}
+.contact a {
+	color: rgb(73, 29, 231);
+	text-decoration: underline;
 }
 .single-project p {
 	padding-right: 10vw;
 	padding-left: 10vw;
+}
+
+.sidebar {
+	background-color: #86739f;
 }
 
 .sidebar p {
@@ -34,7 +42,7 @@
 	height: 100px;
 }
 nav {
-	background-color: #e7e6ff;
+	background-color: #86739f;
 	padding: 10px 0;
 }
 nav p {
@@ -50,15 +58,12 @@ nav p {
 	padding-left: 10vw;
 }
 
-
-.contact h3 {
-	
-	text-decoration: underline;
+.home p {
+	padding-top: 5px;
 }
 h4 a {
 	text-decoration: none;
 }
-
 
 .about-me p {
 	padding-bottom: 15px;
@@ -74,14 +79,13 @@ ul {
 	flex-wrap: wrap;
 	justify-content: center;
 	height: 100;
-	
 }
 h3 {
 	padding: 20px;
 }
-
 .project img {
 	height: 20vh;
+	box-shadow: 10px 5px 5px #36151e;
 }
 .project {
 	padding: 10px;

@@ -34,7 +34,7 @@ class AboutMe extends Component {
 					<li>Git</li>
 					<li>Python</li>
 					<li>Mongo DB</li>
-					<li>Apis</li>
+					<li>APIs</li>
 					<li>HTML/CSS</li>
 					<li>Javascript</li>
 				</ul>

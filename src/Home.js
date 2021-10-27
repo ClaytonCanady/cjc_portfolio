@@ -1,54 +1,71 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import {Card} from 'react-bootstrap'
 class Home extends Component {
 	render() {
 		return (
 			<div className='home'>
 				<br />
-				<h4>My Previous Projects</h4>
-				<p>Please take a look and reach out if you have any questions!</p>
+				<h3>My Previous Projects</h3>
+				
 				<div className='container'>
-					<div className='project'>
-						<p>An application for BBQ recipes.</p>
+					<div className='projects'>
+
+						<div className='project'>
+						<Card>
+						<Card.Title>An application for BBQ recipes.</Card.Title>
 						<Link to={'/MeatMaster'}>
-							<img
+							<Card.Img
 								src={require('./images/meat-master.png')}
 								alt='application for bbq recipes'
 							/>
 						</Link>
-					</div>
+					</Card>
+						</div>
+				
+
 					<div className='project'>
-						<p>Manage fleet vehicles and track service.</p>
+					<Card>
+						<Card.Title>Manage fleet vehicles and track service.</Card.Title>
 						<Link to={'/Fleet'}>
-							<img
+							<Card.Img
 								src={require('./images/fleet.png')}
 								alt='application for managing fleet vehicles'
 							/>
 						</Link>
-					</div>
+					</Card>
+							</div>
+				
+
 
 					<div className='project'>
-						<p>D&D monsters and spells from an API.</p>
+							
+					<Card>
+						<Card.Title>D&D monsters and spells from an API.</Card.Title>
 						<Link to={'/DungeonsAndDragons'}>
-							<img
+							<Card.Img
 								src={require('./images/D&D.png')}
 								alt='Dungeons and Dragons application'
 							/>
 						</Link>
-					</div>
+					</Card>
+							</div>
+			
 					<div className='project'>
-						<p>Quiz game based on GOT.</p>
+					<Card>
+						<Card.Title>Quiz game based on GOT.</Card.Title>
 						<Link to={'/GameOfThrones'}>
-							<img
+							<Card.Img
 								src={require('./images/game-of-thrones.png')}
 								alt='game of thrones quiz'
 							/>
 						</Link>
-					</div>
+					</Card>
+							</div>
 				</div>
-				{/* <Link to='/portfolio'>
-					<h3>My Portfolio</h3>
-				</Link> */}
+					</div>
+					
+		
 			</div>
 		);
 	}

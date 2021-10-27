@@ -53,9 +53,20 @@ nav p {
 	padding-top: 10px;
 	max-width: 400px;
 }
+
+.about-me {
+	text-align: left;
+	padding-left: 5vw;
+}
+
+
 .about-me p {
 	padding-right: 10vw;
-	padding-left: 10vw;
+	padding-bottom: 15px;
+}
+.about-me h4 {
+	padding-left: 3vw;
+	padding-bottom: 10px;
 }
 
 .home p {
@@ -65,31 +76,34 @@ h4 a {
 	text-decoration: none;
 }
 
-.about-me p {
-	padding-bottom: 15px;
-}
-.about-me h4 {
-	padding-bottom: 10px;
-}
+
+
 ul {
 	list-style: none;
 }
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	height: 100;
-}
+
 h3 {
 	padding: 20px;
 }
-.project img {
-	height: 20vh;
-	box-shadow: 10px 5px 5px #36151e;
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
 }
+
+.projects a:hover {
+	transform: scale(1.01);
+	background-color: #86739f;
+}
+
 .project {
+	padding-top: 10px;
+}
+
+.projects img {
 	padding: 10px;
-	align-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,9 +111,7 @@ h3 {
 		border: none;
 		width: 100vw;
 	}
-	.about-me {
-		padding-left: 0px;
-	}
+
 	.home {
 		text-align: center;
 	}
@@ -112,9 +124,6 @@ h3 {
 	.home h3 {
 		padding: none;
 	}
-	/* .sidebar img {
-		display: none;
-	} */
 	.sidebar p {
 		padding-right: 10px;
 		font-weight: bold;

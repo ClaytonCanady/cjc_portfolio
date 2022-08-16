@@ -14,14 +14,17 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<div className='sidebar'>
+					<Link to='/'>
 					<img src={require('./images/me.png')} alt='Me' />
+					</Link>
+					
 					<h2>Clayton Canady</h2>
 					<nav>
 						<Link to='/'>
 							<p>Home</p>
 						</Link>
 						<Link to='/about-me'>
-							<p>About Me</p>
+							<p>Projects</p>
 						</Link>
 						<Link to='/resume'>
 							<p>Resume</p>

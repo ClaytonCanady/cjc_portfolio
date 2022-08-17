@@ -1,9 +1,7 @@
 .App {
-	border: 15px solid #36151e;
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
-	/* text-align: center; */
 	background-color: #121212;
 	color: aliceblue;
 	padding-bottom: 20px;
@@ -18,9 +16,7 @@
 	font-weight: bold;
 	text-decoration: underline;
 }
-.resume {
-	height: 80vh;
-}
+
 
 .single-project a {
 	text-decoration: none;
@@ -155,9 +151,7 @@ h3 {
 	text-align: center;
 }
 
-.resume img {
-	max-width: 100%;
-}
+
 
 @media only screen and (max-width: 600px) {
 	.App {
@@ -189,8 +183,7 @@ h3 {
 	li {
 		padding-left: 1em;
 	}
-	.resume {
-		max-width: 100%;
-		
+	.resume img {
+		max-width: 99%;
 	}
 }

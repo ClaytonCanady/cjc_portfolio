@@ -6,12 +6,12 @@ class Resume extends Component {
 	render() {
 		return (
 			<div className='resume'>
+
 				<a href={myResume} download='./CJCresume.pdf'>
 					<Button className='my-3'>Download PDF</Button>
 				</a>
 				<br />
-				<img
-					
+				<img		
 					src={require('./images/CJCresume.png')}
 					alt='my resume'
 				/>

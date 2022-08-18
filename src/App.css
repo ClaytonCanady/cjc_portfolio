@@ -4,7 +4,7 @@
 	min-height: 100vh;
 	background-color: #121212;
 	color: aliceblue;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
 
 .sidebar {
@@ -143,15 +143,56 @@ h3 {
 	padding: 10px;
 }
 
-.contact {
-	text-align: center;
-}
 
 .resume {
 	text-align: center;
 }
 
+.typed_resume {
+	text-align: left;
+	padding-left: 5vw;
+}
 
+.typed_resume h3 {
+	text-align: left;
+	padding: 0;
+}
+.typed_resume p {
+	padding-left: 1em;
+	padding-right: 10vw;
+}
+
+.typed_resume ul {
+	padding-left: 1em;
+}
+
+.download_button {
+	text-align: center;
+}
+
+.footer {
+	position: absolute bottom;
+	text-align: center;
+	padding-top: 3em;
+}
+.footer a{
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+	color: aliceblue;
+}
+.footer p {
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.footer a:hover {
+	background-color: #e3dee9;
+	color: #121212;
+}
 
 @media only screen and (max-width: 600px) {
 	.App {
@@ -183,7 +224,5 @@ h3 {
 	li {
 		padding-left: 1em;
 	}
-	.resume img {
-		max-width: 99%;
-	}
+
 }

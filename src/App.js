@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, Link } from 'react-router-dom';
-import AboutMe from './AboutMe';
-import ContactMe from './ContactMe';
+import Projects from './Projects';
 import Home from './Home';
 import GameOfThrones from './GameOfThrones'
 import DungeonsAndDragons from './DungeonsAndDragons';
@@ -20,32 +19,37 @@ class App extends Component {
 					
 					<h2>Clayton Canady</h2>
 					<nav>
-						<Link to='/'>
-							<p>Home</p>
-						</Link>
-						<Link to='/about-me'>
+					
+						<Link to='/Projects'>
 							<p>Projects</p>
 						</Link>
 						<Link to='/resume'>
 							<p>Resume</p>
-						</Link>
-						<Link to='/contact-me'>
-							<p>Contact</p>
 						</Link>
 					</nav>
 				</div>
 
 				<main>
 					<Route path='/' exact component={Home} />
-
 					<Route path='/GameOfThrones' component={GameOfThrones} />
 					<Route path='/DungeonsAndDragons' component={DungeonsAndDragons} />
 					<Route path='/Fleet' component={Fleet} />
 					<Route path='/MeatMaster' component={MeatMaster} />
-					<Route path='/about-me' component={AboutMe} />
+					<Route path='/Projects' component={Projects} />
 					<Route path='/resume' component={Resume} />
-					<Route path='/contact-me' component={ContactMe} />
 				</main>
+				<div className='footer'>	
+					<a
+						href='https://www.linkedin.com/in/clayton-canady-dev/'
+						target='blank'>
+						LinkedIn
+					</a>
+					<a href='https://github.com/ClaytonCanady' target='blank'>
+						Github
+					</a>
+					<br/>
+					<p>cjcanady1113@gmail</p> <p>910-305-6588</p>
+					</div>
 			</div>
 		);
 	}

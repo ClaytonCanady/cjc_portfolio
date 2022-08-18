@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {Card} from 'react-bootstrap'
-class AboutMe extends Component {
+class Projects extends Component {
 	render() {
 		return (
 			<div className='projects_container'>
@@ -74,4 +74,4 @@ class AboutMe extends Component {
 	}
 }
 
-export default AboutMe;
+export default Projects;

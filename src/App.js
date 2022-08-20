@@ -3,10 +3,7 @@ import './App.css';
 import { Route, Link } from 'react-router-dom';
 import Projects from './Projects';
 import Home from './Home';
-import GameOfThrones from './GameOfThrones'
-import DungeonsAndDragons from './DungeonsAndDragons';
-import Fleet from './Fleet';
-import MeatMaster from './MeatMaster';
+
 import Resume from './Resume'
 class App extends Component {
 	render() {
@@ -31,10 +28,7 @@ class App extends Component {
 
 				<main>
 					<Route path='/' exact component={Home} />
-					<Route path='/GameOfThrones' component={GameOfThrones} />
-					<Route path='/DungeonsAndDragons' component={DungeonsAndDragons} />
-					<Route path='/Fleet' component={Fleet} />
-					<Route path='/MeatMaster' component={MeatMaster} />
+				
 					<Route path='/Projects' component={Projects} />
 					<Route path='/resume' component={Resume} />
 				</main>
@@ -49,6 +43,7 @@ class App extends Component {
 					</a>
 					<br/>
 					<p>cjcanady1113@gmail</p> <p>910-305-6588</p>
+					<br/>
 					</div>
 			</div>
 		);

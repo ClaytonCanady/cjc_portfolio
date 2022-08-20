@@ -12,20 +12,7 @@
 }
 
 
-.single-project h3 {
-	font-weight: bold;
-	text-decoration: underline;
-}
 
-
-.single-project a {
-	text-decoration: none;
-	color: aliceblue;
-}
-.single-project a:hover {
-	background-color: #e3dee9;
-	color: #121212;
-}
 .contact a {
 	text-decoration: none;
 	color: aliceblue;
@@ -36,19 +23,7 @@
 	color: #121212;
 }
 
-.single-project p {
-	padding-right: 1em;
-	padding-left: 1em;
-}
 
-.single-project h3 {
-	text-align: center;
-}
-
-.single-project a {
-	padding-right: 1em;
-	padding-left: 1em;
-}
 li {
 	padding-right: 1em;
 	padding-left: 1em;
@@ -87,10 +62,7 @@ nav p:hover {
 	padding-left: 5vw;
 }
 
-.single-project {
-	text-align: left;
-	padding-left: 5vw;
-}
+
 
 h3 {text-align: center;}
 
@@ -99,14 +71,9 @@ h3 {text-align: center;}
 	padding-bottom: 15px;
 	padding-left: 1em;
 }
-.projects_container h4 {
-	padding-left: 3vw;
-	padding-bottom: 10px;
-}
 
-.projects_container p {
-	padding-top: 5px;
-}
+
+
 h4 a {
 	text-decoration: none;
 }
@@ -122,27 +89,25 @@ h3 {
 	padding: 20px;
 }
 
-.projects {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-
-}
-
-.project:hover {
-	transform: scale(1.01);
+.project img {
+	max-width: 100%;
 }
 
 .project {
-	padding-top: 10px;
-	color: #121212;
-	opacity: 90%;
+	display: flex;
+	background-color: rgb(29, 29, 28);
+	margin-bottom: 1em;
+	flex-direction: row;
+	min-height: fit-content;
 }
 
-.projects img {
-	padding: 10px;
+.project p{
+	
+	margin: auto;
+	align-items:center;
+	justify-content:center;
+	margin-right: 5%
 }
-
 
 .resume {
 	text-align: center;
